@@ -8,3 +8,7 @@ get '/:name' do
   @name = params[:name]
   erb :home_page
 end
+
+get '/' do
+  erb :home_page
+end
